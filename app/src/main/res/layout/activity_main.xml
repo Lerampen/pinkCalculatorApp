@@ -8,9 +8,9 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:text="123456"
         android:background="@color/nudepink"
         android:textSize="48sp"
         android:padding="10dp"
@@ -214,10 +214,22 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="4dp"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:backgroundTint="@color/hot_pink"
             android:onClick="onDigit"
             android:text="@string/_0"
+            android:textColor="#3E2723"
+
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/btnDot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/hot_pink"
+            android:onClick="onDecimalPoint"
+            android:text="@string/dot"
             android:textColor="#3E2723"
 
             style="?android:attr/buttonBarButtonStyle" />
@@ -229,7 +241,7 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="@color/hot_pink"
-            android:onClick="onDigit"
+            android:onClick="clearEverything"
             android:text="@string/ce"
             android:textColor="#3E2723"
 

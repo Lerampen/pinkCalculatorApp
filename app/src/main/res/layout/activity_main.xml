@@ -70,7 +70,7 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="@color/hot_pink"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/divide"
             android:textColor="#3E2723"
 
@@ -131,7 +131,7 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="@color/hot_pink"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/multiply"
             android:textColor="#3E2723"
 
@@ -193,7 +193,7 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="@color/hot_pink"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/subtract"
             android:textColor="#3E2723"
 
@@ -257,7 +257,7 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="@color/hot_pink"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/add"
             android:textColor="#3E2723"
 

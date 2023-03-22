@@ -284,7 +284,7 @@
             android:layout_margin="4dp"
             android:layout_weight="1"
             android:backgroundTint="@color/hot_pink"
-            android:onClick="onDigit"
+            android:onClick="onEqual"
             android:text="@string/equals"
             android:textColor="#3E2723"
 
